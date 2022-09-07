@@ -25,8 +25,8 @@
 | *word* | *meaning*                        |
 | mi     | I, me, us                        |
 | sina   | you                              |
-| ona    | he, she, they, it                |
-| li     | (between subj. and verb/adj.)    |
+| ona    | he, she, they, it                |  <- Note: Toki Pona has one pronoun, for all genders.
+| li     | (between subj. and verb/adj.)    |  
 | pona   | good, simple, to improve, to fix |
 | ike    | bad, evil, complex, unnecessary  |
 | suli   | big, great, important, to grow   |
@@ -73,4 +73,13 @@ New Vocabulary for this lesson:
 
 + Oftentimes, nouns can double as adjectives. Pronouns, such as mi, sina, ona, can be possessive:
   + mama mi :: my parent
-  + 
+  + soweli sina :: your animal
+  + moku ona    :: their food
++ Adjectives can function as nouns:
+  + wawa sina :: your strength
+  + suli ona  :: their size/greatness
+
+* Of note: the phrase “jan pona”, which literally means “good person”, but is widely (and officially) accepted to also mean “friend".
+  
++ Multiple adjectives can be used:
+  + soweli lili swui :: cute pet (cute little animal)

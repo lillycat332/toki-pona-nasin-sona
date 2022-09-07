@@ -1,0 +1,76 @@
+* Toki Pona
+** An introduction to Toki Pona, the language of good
+
++ Toki Pona (/ˈtoki ˈpona/) is a minimalist, /a posteriori/ language.
++ In total, it has 14 letters, all derived from the latin alphabet.
+
+  ** Consonants
+  | j | k | l |
+  |---+---+---|
+  | m | n | p |
+  | s | t | w |
+
+  ** Vowels
+  | a | e | i | o | u |
+  
++ In Toki Pona, all lexemes are stressed on the first syllable.
++ All the consonants sound the same as English.
+  However, the J consonant sounds like the English consonant "Y" (/j/).
++ The vowels are pronounced the same as their IPA:
+  /a e i o u/
+
+** Toki Pona Lesson 1: A few words in basic sentences
++ Here are some words and their meanings.
+
+| *word* | *meaning*                        |
+| mi     | I, me, us                        |
+| sina   | you                              |
+| ona    | he, she, they, it                |
+| li     | (between subj. and verb/adj.)    |
+| pona   | good, simple, to improve, to fix |
+| ike    | bad, evil, complex, unnecessary  |
+| suli   | big, great, important, to grow   |
+| lili   | small, few, young, to shrink     |
+| kili   | fruit, vegetable, mushroom       |
+| soweli | land mammal, animal              |
+
++ Toki Pona follows the basic sentence structure of:
+  [noun] li [adjective /or/ noun]
+  corresponding to the English:
+  [noun] is a [noun] / [noun] is [adjective]
+
++ Eg.
+  + ona li suli  :: They/{he, she, it} are big/great/important
+  + kili li pona :: Fruit/vegetables/mushrooms are good.
++ An exception to this rule is made when he subject is mi, or sina.
+  + sina suli, instead of sina /li/ suli
+*** Exercises
++ Animals are important :: soweli li suli
++ He is little :: ona li lili
++ I am great   :: mi suli
++ It is a dog  :: ona li soweli
++ You are bad  :: sina ike
+
+** Toki Pona 2: Introducing the Adjective
+New Vocabulary for this lesson:
+
+| *word*  | *meaning*                           |
+| ala     | no, not, zero                       |
+| ale/ali | all, everything, universe           |
+| utala   | fight, battle, challenge            |
+| wawa    | strong, powerful                    |
+| suwi    | sweet, cute, adorable               |
+| jan     | person, people, humanity            |
+| mama    | parent, ancestor, creator, origin   |
+| meli    | girl, woman, female, feminine, wife |
+| mije    | boy, man, male, masculine, husband  |
+| moku    | food, to eat                        |
+
++ In Toki Pona, adjectives are /post-modifying/, not /pre-modifying/ (like English).
+  For example:
+  + jan wawa  :: strong person
+  + mije suwi :: cute boy
+
++ Oftentimes, nouns can double as adjectives. Pronouns, such as mi, sina, ona, can be possessive:
+  + mama mi :: my parent
+  + 

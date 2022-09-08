@@ -1,5 +1,5 @@
 * Toki Pona
-** An introduction to Toki Pona, the language of good
+* An introduction to Toki Pona, the language of good
 
 + Toki Pona (/ˈtoki ˈpona/) is a minimalist, /a posteriori/ language.
 + In total, it has 14 letters, all derived from the latin alphabet.
@@ -19,7 +19,30 @@
 + The vowels are pronounced the same as their IPA:
   /a e i o u/
 
-** Toki Pona Lesson 1: A few words in basic sentences
+
+* Config:
++ This Lisp will configure emacs to show toki pona within == == blocks
+  as ==sitelen pona==.
+  #+begin_src emacs-lisp :results verbatim
+    (face-remap-add-relative 'org-verbatim :family "linja pona")
+    (ligature-set-ligatures 'org-mode
+    '("akesi" "ala" "alasa" "ale" "ali" "anpa" "apeja" "ante" "anu" "awen"
+      "en" "esun"
+      "ijo" "ike" "ilo" "insa"
+      "jaki" "jan" "jelo" "jo"
+      "kala" "kalama" "kama" "kasi" "ken" "kepeken" "kili" "kin" "kipisi" "kiwen" "ko" "kon" "kule" "kulupu" "kute"
+      "la" "lape" "laso" "lawa" "leko" "len" "lete" "li" "lili" "linja" "lipu" "loje" "lon" "luka" "lukin" "lupa"
+      "ma" "mama" "mani" "meli" "mi" "mije" "moku" "moli" "monsi" "monsuta" "mu" "mun" "musi" "mute"
+      "nanpa" "nasa" "nasin" "nena" "ni" "nimi" "noka"
+      "oko" "olin" "ona" "open"
+      "pakala" "pake" "pali" "palisa" "pan" "pana" "pi" "pilin" "pimeja" "pini" "pipi" "poka" "poki" "pona" "pu"
+      "sama" "seli" "selo" "seme" "sewi" "sijelo" "sike" "sin" "sina" "sinpin" "sitelen" "sona" "soweli" "suli" "suno" "supa" "suwi"
+      "tan" "taso" "tawa" "telo" "tenpo" "toki" "tomo" "tonsi" "tu"
+      "unpa" "uta" "utala"
+      "walo" "wan" "waso" "wawa" "weka" "wile"))
+#+end_src
+
+* Toki Pona Lesson 1: A few words in basic sentences
 + Here are some words and their meanings.
 
 | *word* | *meaning*                        |
@@ -51,7 +74,7 @@
 + It is a dog  :: ona li soweli
 + You are bad  :: sina ike
 
-** Toki Pona 2: Introducing the Adjective
+* Toki Pona 2: Introducing the Adjective
 New Vocabulary for this lesson:
 
 | *word*  | *meaning*                           |
@@ -79,7 +102,65 @@ New Vocabulary for this lesson:
   + wawa sina :: your strength
   + suli ona  :: their size/greatness
 
-* Of note: the phrase “jan pona”, which literally means “good person”, but is widely (and officially) accepted to also mean “friend".
+*** Of note: the phrase “jan pona”, which literally means “good person”, but is widely (and officially) accepted to also mean “friend".
   
 + Multiple adjectives can be used:
   + soweli lili swui :: cute pet (cute little animal)
+  + mama mi li pona  :: My parents are good.
+  + kili suwu li moku pona :: sweet fruits are good food
+  + jan lili mi li suwi :: My children are cute.
+
+*** Note: It is worth noting that the particle “li” is only removed if the subject is just the word “mi” or “sina”.
+  If it has any adjectives added to it, then the particle is used.
+*** /Tonsi/ (derived from chinese /tongzhi/ - comrade) is used by some to refer to non-binary, genderqueer and trans individuals.
+
+** Exercises 
+*** Now, try to figure out the meaning of these sentences.
+
++ meli mi li pona.      :: my wife is good
++ mije sina li suli.    :: your husband is important
++ mama mije mi li wawa. :: my father is strong
++ soweli ale li pona.   :: all animals are good
++ kili li moku suli.    :: fruit is important food
+  
+*** And try to translate the following sentences into toki pona.
+
++ My wife is adorable.  :: meli mi li suwi
++ All warriors are bad. :: jan utala ale li ike
++ My friends are your friends. :: jan pona mi jan pona sina
++ Your son is strong. :: jan lile mije sina li wawa
++ The small fruit is sweet. :: kili lili li suwi
+
+* Toki Pona 3: Verbs
+
+** New Vocabulary:
+
+| *word* | *meaning*                        |
+| e      | (specifies an object)            |
+| ijo    | thing, object                    |
+| ilo    | tool, machine, device            |
+| lipu   | book, document, paper            |
+| lukin  | eye, to look, to see, to seek to |
+| olin   | love, compassion, affection      |
+| pali   | to do, to work, to make, labor   |
+| pana   | to give, to send, to emit        |
+| telo   | water, fluid, to water, to clean |
+| tomo   | home, room, structure            |
+
+** Verbs
+
++ To add a verb, use the structure:
+  [noun] li [verb]
+  eg.
+  + mije li pali :: A man is working
+  Both the verb and noun can have adjectives added after.
+  Adjectives function as adverbs if added to a verb.
+  + jan wawa li pali pona :: A strong person is working well.
+
+  * There's no way to tell whether a word is an adjective or verb.
+    For example: mi moku means both I am eating, and I am food
+  * Verbs have no tense.
+
+* Verb
+
++ To add an object to a verb, use the particle 'e' == epcsdoc ==
